@@ -1,4 +1,4 @@
-package main
+package cosine_similarity
 
 import (
 	"log"
