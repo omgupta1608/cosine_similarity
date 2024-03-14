@@ -1,5 +1,5 @@
-# cosine_similarity
-Cosine similarity implementation in Go.
+# Cosine Similarity implementation in Go
+Cosine similarity quantifies the resemblance between two vectors in a multi-dimensional setting, often applied to gauge the similarity between textual entities. Conceptually, it evaluates the angle between the directions these vectors point towards, indicating their similarity. When this angle is minimal, approaching zero degrees, the cosine value tends toward 1, denoting a stronger alignment and thus higher textual similarity.
 
 ## How to use
 ```
