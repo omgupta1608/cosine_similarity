@@ -32,12 +32,6 @@ git clone https://github.com/omgupta1608/cosine_similarity.git
 
 #### Run it
 ```
-go run main.go "Who are you?" "Who is that?"
-```
-
-OR
-
-```
 ./cosine_similarity "Who are you?" "Who is that?"
 ```
 #### Output

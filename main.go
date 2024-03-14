@@ -1,10 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"math"
-	"os"
 	"strings"
 )
 
@@ -55,19 +53,4 @@ func Cosine(first, second string) float64 {
 	}
 
 	return calc(wm1, wm2)
-}
-
-func main() {
-	args := os.Args
-	if len(args) != 3 {
-		log.Fatalln("invalid syntax. please provide 2 words")
-	}
-
-	first := args[1]
-
-	second := args[2]
-
-	score := Cosine(first, second)
-
-	fmt.Printf("Cosine Similarity Score for \"%s\" and \"%s\" is: %#g\n", first, second, score)
 }
