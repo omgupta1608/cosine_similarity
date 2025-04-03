@@ -15,7 +15,11 @@ import (
 func main() {
     a := "Who are you?"
     b := "Who is that?" 
-    score := cs.Cosine(a, b)
+    score, err := cs.Cosine(a, b, false) // true if you want to ignore case
+    if err != nil {
+        fmt.Println("error in calculating cosine similarity: ", err.Error())
+        return
+    }
     fmt.Println("Score: ", score)
 }
 ```
